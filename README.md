@@ -1,4 +1,15 @@
-# Alpha Checkers Zero
+# Checkers-AI-Minimax-Neural_Network
+
+International Draughts is very popular in many countries, yet it remains an unsolved board game due to its high state complexity (number of distinct states) with an upper bound of  10^30 game tree complexity (number of different possible sequences of legal moves) estimated at 10^54 [14]. This work aims to develop two distinct agents for playing checkers using two fundamentally different AI approaches.
+
+The first approach employs the Minimax Algorithm, customized for checkers, and enhances its performance using alpha-beta pruning and quiescence search.
+
+The second approach employs a trained neural network. Due to the scarcity of high-quality international checkers game data available online, the AlphaZero methodology from Google's DeepMind was adopted and trained from scratch for this purpose.
+
+The goal was to develop two agents playing at a reasonably high skill level using completely different techniques and comparing their advantages and disadvantages, with a focus on comparing their respective advantages and disadvantages.
+
+This project, fully implemented in Python, met all the proposed goals.
+
 
 ## Setup
 
